@@ -5,7 +5,7 @@
 1. Склонируйте репозиторий с помощью следующей команды:
 
 ```shell
-git clone https://github.com/your-repository-url.git
+git clone https://github.com/qskateboard/reactjs-bypass.git
 ```
 
 2. Установите зависимости:
