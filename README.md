@@ -1,2 +1,41 @@
-# reactjs-bypass
-Anti DDOS bypass for forum.arizona-rp.com
+Данный скрипт представляет собой обход защиты от DDoS-атак веб-страницы на ReactJS с целью осуществления последующего сбора данных.
+
+### Установка
+
+1. Склонируйте репозиторий с помощью следующей команды:
+
+```shell
+git clone https://github.com/your-repository-url.git
+```
+
+2. Установите зависимости:
+
+```shell
+pip install requests dukpy aiohttp aiohttp-socks 
+```
+
+3. Запустите скрипт с помощью команды:
+
+```shell
+python3 bypass.py
+```
+
+### Использование обхода
+
+```python
+import bypass
+
+async def main():
+    code = await bypass.bypass_async()
+    print(code)  # кука в формате R3ACTLAB-ARZ1=код;
+
+if __name__ == '__main__':
+    asyncio.run(main())
+
+```
+
+После чего полученный код можно приставить к авторизованным кукам, таким образом получить доступ к учетной записи. Важно, что последний символ исходных кук должен заканчиваться на символ ;
+
+### Лицензия
+
+Исходный код данного проекта распространяется под лицензией zlib. Подробности лицензии можно найти в файле `LICENSE`.
